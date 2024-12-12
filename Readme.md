@@ -80,3 +80,20 @@ Open the SimpleVoting.sol file. The starter code includes TODOs with clear instr
 **Get Votes:**
 * Call the getVotes function with a candidate ID to see the total votes.
 
+# Testing the Contract
+* Add at least two candidates using the addCandidate function.
+* Use different accounts in Remix (via MetaMask or "Account" dropdown) to vote for candidates.
+* Use the getVotes function to check the total votes for each candidate.
+* Try invalid scenarios (e.g., voting twice, invalid candidate ID) to test the validations.
+
+# Submission Instructions
+* Complete the TODOs in SimpleVoting.sol.
+* Test the contract in Remix.
+* Submit the link to your GitHub fork for review.
+
+# Bonus Tasks (Optional for Advanced Participants)
+* Election Results:
+           Add a getWinner function to determine the candidate with the most votes.
+* Election Control:
+           Add functionality to start and stop the election.
+
