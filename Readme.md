@@ -40,3 +40,17 @@ voting-system/
 
 ├── README.md                    # Instructions for beginners
 
+# Instructions for Participants
+
+**Step 1:** Get a copy of the Voting repository by accepting the Github classroom link:
+
+
+**Step 2:** Open the Contract in Remix
+
+* Go to Remix.
+* Click on the "File Explorer" tab and upload the SimpleVoting.sol file.
+
+**Step 3**: Complete the Smart Contract:
+
+Open the SimpleVoting.sol file. The starter code includes TODOs with clear instructions:
+
