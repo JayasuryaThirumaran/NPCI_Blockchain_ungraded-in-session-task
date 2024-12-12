@@ -54,3 +54,29 @@ voting-system/
 
 Open the SimpleVoting.sol file. The starter code includes TODOs with clear instructions:
 
+**Step 4:** Compile the Contract
+
+* In Remix, click on the "Solidity Compiler" tab.
+* Select the correct compiler version (0.8.x).
+* Compile the contract.
+
+**Step 5:** Deploy the Contract
+* Go to the "Deploy & Run Transactions" tab in Remix.
+* Deploy the contract with your account as the admin.
+
+**Step 6: Interact with the Contract**
+
+**Add Candidates:**
+* As the admin, call the addCandidate function with the candidate names (e.g., "Ravi" or "Manu").
+* Verify that candidates are added by checking the candidates mapping.
+
+**Vote for Candidates:**
+* Call the vote function with the candidate ID (starting from 0 for the first candidate).
+
+     Ensure that:
+              * The same address cannot vote twice.
+              * Only valid candidate IDs are accepted.
+
+**Get Votes:**
+* Call the getVotes function with a candidate ID to see the total votes.
+
